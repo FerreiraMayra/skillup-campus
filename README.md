@@ -17,14 +17,13 @@ El objetivo central es desplegar un producto mínimo viable (MVP) estable y func
 
 ## 👥 Equipo de Trabajo e Integrantes
 
-* **Project Manager:** [Nombre]
-* **UX/UI Designer:** [Nombre]
-* **Diseño Gráfico:** [Nombre]
-* **Frontend Developer:** [Nombre]
-* **Backend Developer:** [Nombre]
-* **Data Analyst:** [Nombre]
-* **Marketing & Growth:** [Nombre]
-* **QA Tester:** [Nombre]
+* **Project Manager:** [Marcia Torre]
+* **Diseñador UX/UI:** [Daniela Rosales]
+* **Desarrollador Backend (NodeJs):** [Leonardo Gonzalez]
+* **Desarrollador Frontend (React):** [Manuel Casimiro]
+* **Data Analyst:** [Abril Milagros Palacin]
+* **Especialista de Marketing:** [Jorgelina Riquelme]
+* **Tester QA Manual:** [Mayra Elizabeth Ferreira]
 
 ---
 
@@ -124,6 +123,12 @@ Para mantener un historial de cambios ordenado y profesional, el equipo sigue el
 * **refactor/area-modificada**: Mejoras de código sin alterar la lógica de negocio.
 
 ---
+
+## Comandos Git para el WorkFlow diario(lo que más vas a usar)
+* **git checkout -b feature/nombre-de-la-feature **: Creas una rama dividida de la main(trabajas por fuera, una copia del programa original)
+* **git add .**: Prepara el espacio para transportar la rama
+* **git commit -m "feat: descripción clara del cambio" **: Commit de la rama, se detalla lo que se hizo en el trabajo de la rama. 
+* **git push origin feature/nombre-de-la-feature**: Creas el pull request (se confirma en GitHub) para hacer el merge (fusion) de la rama con la main(rama principal)
 
 ## 💬 Formato de Commits
 

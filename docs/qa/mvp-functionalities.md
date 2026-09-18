@@ -63,3 +63,16 @@
 - Chat entre usuarios.
 - Certificados.
 - Notificaciones automáticas por email.
+
+## Requisitos de autenticación y permisos
+
+* El usuario debe poder registrarse para crear una cuenta.
+* El usuario debe iniciar sesión para acceder a las funcionalidades privadas.
+* El panel personal del alumno requiere autenticación.
+* El panel de administrador y sus funcionalidades requieren autenticación y permisos de administrador.
+* El sistema debe diferenciar los permisos entre alumnos y administradores.
+* Un alumno no debe poder acceder al panel de administrador.
+* Un alumno no debe poder crear, editar ni eliminar cursos.
+* Un usuario no autenticado no debe poder ejecutar operaciones protegidas.
+* Las operaciones administrativas deben estar protegidas también a nivel de API.
+
